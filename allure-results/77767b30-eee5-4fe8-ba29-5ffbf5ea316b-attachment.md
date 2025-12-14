@@ -1,0 +1,641 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - link "CarWale" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "CarWale" [ref=e9] [cursor=pointer]
+        - navigation [ref=e10]:
+          - list [ref=e11]:
+            - listitem [ref=e12]:
+              - generic [ref=e13] [cursor=pointer]: NEW CARS
+            - listitem [ref=e14]:
+              - generic [ref=e15] [cursor=pointer]: USED CARS
+            - listitem [ref=e16]:
+              - generic [ref=e17] [cursor=pointer]: REVIEWS & NEWS
+        - generic [ref=e18]:
+          - generic [ref=e23] [cursor=pointer]:
+            - textbox "Input field" [ref=e24]
+            - img [ref=e26] [cursor=pointer]
+          - img [ref=e30] [cursor=pointer]
+          - img [ref=e34]
+          - img [ref=e37] [cursor=pointer]
+    - generic [ref=e40]:
+      - generic [ref=e41]:
+        - heading "New Cars" [level=1] [ref=e43]
+        - generic [ref=e45]:
+          - generic [ref=e48]:
+            - text: Are you planning on buying a new car? Well, we know that with so many car options available out there, it gets really difficult to find a good car which suits your need. Hence, we have put together a complete list of new cars. Tata, Maruti Suzuki and Mahindra are the 3 most popular car brands. These popular car brands cater to a wide spectrum of budgets and needs, offering a variety of cars from fuel-efficient hatchbacks to spacious SUVs. The 5 most popular cars are
+            - link "Renault Triber" [ref=e49] [cursor=pointer]:
+              - /url: /renault-cars/triber/
+            - text: ","
+            - link "Hyundai Creta" [ref=e50] [cursor=pointer]:
+              - /url: /hyundai-cars/creta/
+            - text: ","
+            - link "Tata Nexon" [ref=e51] [cursor=pointer]:
+              - /url: /tata-cars/nexon/
+            - text: ","
+            - link "Hyundai Venue" [ref=e52] [cursor=pointer]:
+              - /url: /hyundai-cars/venue/
+            - text: and
+            - link "Tata Sierra" [ref=e53] [cursor=pointer]:
+              - /url: /tata-cars/sierra/
+            - text: . Explore the complete list of cars by exploring different brands or by applying multiple filters such as budget, fuel type, body type etc. You can find the car that suits you best from the list of cars below.
+          - button "Read More" [ref=e54] [cursor=pointer]
+      - generic [ref=e55]:
+        - heading "All Brands" [level=2] [ref=e57]
+        - generic [ref=e59]:
+          - list [ref=e62]:
+            - listitem [ref=e63]:
+              - link "Tata Cars Tata" [ref=e64] [cursor=pointer]:
+                - /url: /tata-cars/
+                - img "Tata Cars" [ref=e67] [cursor=pointer]
+                - generic [ref=e68] [cursor=pointer]: Tata
+            - listitem [ref=e69]:
+              - link "Maruti Suzuki Cars Maruti Suzuki" [ref=e70] [cursor=pointer]:
+                - /url: /maruti-suzuki-cars/
+                - img "Maruti Suzuki Cars" [ref=e73] [cursor=pointer]
+                - generic [ref=e74] [cursor=pointer]: Maruti Suzuki
+            - listitem [ref=e75]:
+              - link "Mahindra Cars Mahindra" [ref=e76] [cursor=pointer]:
+                - /url: /mahindra-cars/
+                - img "Mahindra Cars" [ref=e79] [cursor=pointer]
+                - generic [ref=e80] [cursor=pointer]: Mahindra
+            - listitem [ref=e81]:
+              - link "Hyundai Cars Hyundai" [ref=e82] [cursor=pointer]:
+                - /url: /hyundai-cars/
+                - img "Hyundai Cars" [ref=e85] [cursor=pointer]
+                - generic [ref=e86] [cursor=pointer]: Hyundai
+            - listitem [ref=e87]:
+              - link "Toyota Cars Toyota" [ref=e88] [cursor=pointer]:
+                - /url: /toyota-cars/
+                - img "Toyota Cars" [ref=e91] [cursor=pointer]
+                - generic [ref=e92] [cursor=pointer]: Toyota
+            - listitem [ref=e93]:
+              - link "Kia Cars Kia" [ref=e94] [cursor=pointer]:
+                - /url: /kia-cars/
+                - img "Kia Cars" [ref=e97] [cursor=pointer]
+                - generic [ref=e98] [cursor=pointer]: Kia
+            - listitem [ref=e99]:
+              - link "BMW Cars BMW" [ref=e100] [cursor=pointer]:
+                - /url: /bmw-cars/
+                - img "BMW Cars" [ref=e103] [cursor=pointer]
+                - generic [ref=e104] [cursor=pointer]: BMW
+            - listitem [ref=e105]:
+              - link "Renault Cars Renault" [ref=e106] [cursor=pointer]:
+                - /url: /renault-cars/
+                - img "Renault Cars" [ref=e109] [cursor=pointer]
+                - generic [ref=e110] [cursor=pointer]: Renault
+            - listitem [ref=e111]:
+              - link "Skoda Cars Skoda" [ref=e112] [cursor=pointer]:
+                - /url: /skoda-cars/
+                - img "Skoda Cars" [ref=e115] [cursor=pointer]
+                - generic [ref=e116] [cursor=pointer]: Skoda
+            - listitem [ref=e117]:
+              - link "Land Rover Cars Land Rover" [ref=e118] [cursor=pointer]:
+                - /url: /land-rover-cars/
+                - img "Land Rover Cars" [ref=e121] [cursor=pointer]
+                - generic [ref=e122] [cursor=pointer]: Land Rover
+            - listitem [ref=e123]:
+              - link "Mercedes-Benz Cars Mercedes-Benz" [ref=e124] [cursor=pointer]:
+                - /url: /mercedes-benz-cars/
+                - img "Mercedes-Benz Cars" [ref=e127] [cursor=pointer]
+                - generic [ref=e128] [cursor=pointer]: Mercedes-Benz
+            - listitem [ref=e129]:
+              - link "MG Cars MG" [ref=e130] [cursor=pointer]:
+                - /url: /mg-cars/
+                - img "MG Cars" [ref=e133] [cursor=pointer]
+                - generic [ref=e134] [cursor=pointer]: MG
+            - listitem [ref=e135]:
+              - link "Honda Cars Honda" [ref=e136] [cursor=pointer]:
+                - /url: /honda-cars/
+                - img "Honda Cars" [ref=e139] [cursor=pointer]
+                - generic [ref=e140] [cursor=pointer]: Honda
+            - listitem [ref=e141]:
+              - link "Volkswagen Cars Volkswagen" [ref=e142] [cursor=pointer]:
+                - /url: /volkswagen-cars/
+                - img "Volkswagen Cars" [ref=e145] [cursor=pointer]
+                - generic [ref=e146] [cursor=pointer]: Volkswagen
+            - listitem [ref=e147]:
+              - link "Citroen Cars Citroen" [ref=e148] [cursor=pointer]:
+                - /url: /citroen-cars/
+                - img "Citroen Cars" [ref=e151] [cursor=pointer]
+                - generic [ref=e152] [cursor=pointer]: Citroen
+            - listitem [ref=e153]:
+              - link "Jeep Cars Jeep" [ref=e154] [cursor=pointer]:
+                - /url: /jeep-cars/
+                - img "Jeep Cars" [ref=e157] [cursor=pointer]
+                - generic [ref=e158] [cursor=pointer]: Jeep
+            - listitem [ref=e159]:
+              - link "Nissan Cars Nissan" [ref=e160] [cursor=pointer]:
+                - /url: /nissan-cars/
+                - img "Nissan Cars" [ref=e163] [cursor=pointer]
+                - generic [ref=e164] [cursor=pointer]: Nissan
+            - listitem [ref=e165]:
+              - link "Audi Cars Audi" [ref=e166] [cursor=pointer]:
+                - /url: /audi-cars/
+                - img "Audi Cars" [ref=e169] [cursor=pointer]
+                - generic [ref=e170] [cursor=pointer]: Audi
+            - listitem [ref=e171]:
+              - link "Mini Cars Mini" [ref=e172] [cursor=pointer]:
+                - /url: /mini-cars/
+                - img "Mini Cars" [ref=e175] [cursor=pointer]
+                - generic [ref=e176] [cursor=pointer]: Mini
+            - listitem [ref=e177]:
+              - link "Vinfast Cars Vinfast" [ref=e178] [cursor=pointer]:
+                - /url: /vinfast-cars/
+                - img "Vinfast Cars" [ref=e181] [cursor=pointer]
+                - generic [ref=e182] [cursor=pointer]: Vinfast
+            - listitem [ref=e183]:
+              - link "BYD Cars BYD" [ref=e184] [cursor=pointer]:
+                - /url: /byd-cars/
+                - img "BYD Cars" [ref=e187] [cursor=pointer]
+                - generic [ref=e188] [cursor=pointer]: BYD
+            - listitem [ref=e189]:
+              - link "Porsche Cars Porsche" [ref=e190] [cursor=pointer]:
+                - /url: /porsche-cars/
+                - img "Porsche Cars" [ref=e193] [cursor=pointer]
+                - generic [ref=e194] [cursor=pointer]: Porsche
+            - listitem [ref=e195]:
+              - link "Volvo Cars Volvo" [ref=e196] [cursor=pointer]:
+                - /url: /volvo-cars/
+                - img "Volvo Cars" [ref=e199] [cursor=pointer]
+                - generic [ref=e200] [cursor=pointer]: Volvo
+            - listitem [ref=e201]:
+              - link "Lexus Cars Lexus" [ref=e202] [cursor=pointer]:
+                - /url: /lexus-cars/
+                - img "Lexus Cars" [ref=e205] [cursor=pointer]
+                - generic [ref=e206] [cursor=pointer]: Lexus
+            - listitem [ref=e207]:
+              - link "Rolls-Royce Cars Rolls-Royce" [ref=e208] [cursor=pointer]:
+                - /url: /rolls-royce-cars/
+                - img "Rolls-Royce Cars" [ref=e211] [cursor=pointer]
+                - generic [ref=e212] [cursor=pointer]: Rolls-Royce
+            - listitem [ref=e213]:
+              - link "Lamborghini Cars Lamborghini" [ref=e214] [cursor=pointer]:
+                - /url: /lamborghini-cars/
+                - img "Lamborghini Cars" [ref=e217] [cursor=pointer]
+                - generic [ref=e218] [cursor=pointer]: Lamborghini
+            - listitem [ref=e219]:
+              - link "Ferrari Cars Ferrari" [ref=e220] [cursor=pointer]:
+                - /url: /ferrari-cars/
+                - img "Ferrari Cars" [ref=e223] [cursor=pointer]
+                - generic [ref=e224] [cursor=pointer]: Ferrari
+            - listitem [ref=e225]:
+              - link "Jaguar Cars Jaguar" [ref=e226] [cursor=pointer]:
+                - /url: /jaguar-cars/
+                - img "Jaguar Cars" [ref=e229] [cursor=pointer]
+                - generic [ref=e230] [cursor=pointer]: Jaguar
+            - listitem [ref=e231]:
+              - link "Force Motors Cars Force Motors" [ref=e232] [cursor=pointer]:
+                - /url: /force-motors-cars/
+                - img "Force Motors Cars" [ref=e235] [cursor=pointer]
+                - generic [ref=e236] [cursor=pointer]: Force Motors
+            - listitem [ref=e237]:
+              - link "Maserati Cars Maserati" [ref=e238] [cursor=pointer]:
+                - /url: /maserati-cars/
+                - img "Maserati Cars" [ref=e241] [cursor=pointer]
+                - generic [ref=e242] [cursor=pointer]: Maserati
+            - listitem [ref=e243]:
+              - link "Tesla Cars Tesla" [ref=e244] [cursor=pointer]:
+                - /url: /tesla-cars/
+                - img "Tesla Cars" [ref=e247] [cursor=pointer]
+                - generic [ref=e248] [cursor=pointer]: Tesla
+            - listitem [ref=e249]:
+              - link "Isuzu Cars Isuzu" [ref=e250] [cursor=pointer]:
+                - /url: /isuzu-cars/
+                - img "Isuzu Cars" [ref=e253] [cursor=pointer]
+                - generic [ref=e254] [cursor=pointer]: Isuzu
+            - listitem [ref=e255]:
+              - link "Aston Martin Cars Aston Martin" [ref=e256] [cursor=pointer]:
+                - /url: /aston-martin-cars/
+                - img "Aston Martin Cars" [ref=e259] [cursor=pointer]
+                - generic [ref=e260] [cursor=pointer]: Aston Martin
+            - listitem [ref=e261]:
+              - link "McLaren Cars McLaren" [ref=e262] [cursor=pointer]:
+                - /url: /mclaren-cars/
+                - img "McLaren Cars" [ref=e265] [cursor=pointer]
+                - generic [ref=e266] [cursor=pointer]: McLaren
+            - listitem [ref=e267]:
+              - link "Bentley Cars Bentley" [ref=e268] [cursor=pointer]:
+                - /url: /bentley-cars/
+                - img "Bentley Cars" [ref=e271] [cursor=pointer]
+                - generic [ref=e272] [cursor=pointer]: Bentley
+            - listitem [ref=e273]:
+              - link "Lotus Cars Lotus" [ref=e274] [cursor=pointer]:
+                - /url: /lotus-cars/
+                - img "Lotus Cars" [ref=e277] [cursor=pointer]
+                - generic [ref=e278] [cursor=pointer]: Lotus
+          - button "[object Object]" [ref=e279] [cursor=pointer]: View More Brands
+      - generic [ref=e281]: AD
+      - generic [ref=e283]:
+        - heading "Find The Cars Of Your Choice" [level=2] [ref=e285]
+        - generic [ref=e287]:
+          - list [ref=e290]:
+            - listitem [ref=e291]:
+              - generic [ref=e293] [cursor=pointer]: Budget
+            - listitem [ref=e295]:
+              - generic [ref=e297] [cursor=pointer]: Body Type
+            - listitem [ref=e298]:
+              - generic [ref=e300] [cursor=pointer]: Fuel Type
+            - listitem [ref=e301]:
+              - generic [ref=e303] [cursor=pointer]: Transmission
+            - listitem [ref=e304]:
+              - generic [ref=e306] [cursor=pointer]: Seating Capacity
+          - generic [ref=e310]:
+            - link "Under 5 Lakh" [ref=e311] [cursor=pointer]:
+              - /url: /new/best-cars-under-5-lakh/
+            - link "Under 6 Lakh" [ref=e312] [cursor=pointer]:
+              - /url: /new/best-cars-under-6-lakh/
+            - link "Under 7 Lakh" [ref=e313] [cursor=pointer]:
+              - /url: /new/best-cars-under-7-lakh/
+            - link "Under 8 Lakh" [ref=e314] [cursor=pointer]:
+              - /url: /new/best-cars-under-8-lakh/
+            - link "Under 10 Lakh" [ref=e315] [cursor=pointer]:
+              - /url: /new/best-cars-under-10-lakh/
+            - link "Under 15 Lakh" [ref=e316] [cursor=pointer]:
+              - /url: /new/best-cars-under-15-lakh/
+            - link "Under 20 Lakh" [ref=e317] [cursor=pointer]:
+              - /url: /new/best-cars-under-20-lakh/
+            - link "Under 25 Lakh" [ref=e318] [cursor=pointer]:
+              - /url: /new/best-cars-under-25-lakh/
+            - link "Under 30 Lakh" [ref=e319] [cursor=pointer]:
+              - /url: /new/best-cars-under-30-lakh/
+            - link "Luxury Cars" [ref=e320] [cursor=pointer]:
+              - /url: /new/best-luxury-cars/
+      - generic [ref=e322]:
+        - heading "Featured Cars" [level=2] [ref=e324]
+        - generic [ref=e326]:
+          - list [ref=e329]:
+            - listitem [ref=e330]:
+              - generic [ref=e332] [cursor=pointer]: Trending
+            - listitem [ref=e334]:
+              - generic [ref=e336] [cursor=pointer]: Popular
+            - listitem [ref=e337]:
+              - generic [ref=e339] [cursor=pointer]: Upcoming
+          - generic [ref=e344]:
+            - generic [ref=e347]:
+              - generic [ref=e352]:
+                - img "Renault Triber" [ref=e355]
+                - generic [ref=e356]:
+                  - link "Renault Triber" [ref=e357] [cursor=pointer]:
+                    - /url: /renault-cars/triber/
+                    - generic [ref=e358] [cursor=pointer]: Renault Triber
+                  - generic [ref=e360]:
+                    - text: Rs. 5.76 Lakh
+                    - generic [ref=e361]: onwards
+                  - generic [ref=e362]: Avg. Ex-Showroom price
+                  - generic [ref=e363] [cursor=pointer]: Show price in my city
+              - generic [ref=e368]:
+                - img "Hyundai Creta" [ref=e371]
+                - generic [ref=e372]:
+                  - link "Hyundai Creta" [ref=e373] [cursor=pointer]:
+                    - /url: /hyundai-cars/creta/
+                    - generic [ref=e374] [cursor=pointer]: Hyundai Creta
+                  - generic [ref=e376]:
+                    - text: Rs. 10.73 Lakh
+                    - generic [ref=e377]: onwards
+                  - generic [ref=e378]: Avg. Ex-Showroom price
+                  - generic [ref=e379] [cursor=pointer]: Show price in my city
+              - generic [ref=e384]:
+                - img "Tata Nexon" [ref=e387]
+                - generic [ref=e388]:
+                  - link "Tata Nexon" [ref=e389] [cursor=pointer]:
+                    - /url: /tata-cars/nexon/
+                    - generic [ref=e390] [cursor=pointer]: Tata Nexon
+                  - generic [ref=e392]:
+                    - text: Rs. 8.00 Lakh
+                    - generic [ref=e393]: onwards
+                  - generic [ref=e394]: Avg. Ex-Showroom price
+                  - generic [ref=e395] [cursor=pointer]: Show price in my city
+              - generic [ref=e400]:
+                - img "Hyundai Venue" [ref=e403]
+                - generic [ref=e404]:
+                  - link "Hyundai Venue" [ref=e405] [cursor=pointer]:
+                    - /url: /hyundai-cars/venue/
+                    - generic [ref=e406] [cursor=pointer]: Hyundai Venue
+                  - generic [ref=e408]:
+                    - text: Rs. 7.90 Lakh
+                    - generic [ref=e409]: onwards
+                  - generic [ref=e410]: Avg. Ex-Showroom price
+                  - generic [ref=e411] [cursor=pointer]: Show price in my city
+              - generic [ref=e415]:
+                - generic [ref=e416]:
+                  - img "Tata Sierra" [ref=e419]
+                  - generic [ref=e420]:
+                    - link "Tata Sierra" [ref=e421] [cursor=pointer]:
+                      - /url: /tata-cars/sierra/
+                      - generic [ref=e422] [cursor=pointer]: Tata Sierra
+                    - generic [ref=e424]:
+                      - text: Rs. 11.49 Lakh
+                      - generic [ref=e425]: onwards
+                    - generic [ref=e426]: Avg. Ex-Showroom price
+                    - generic [ref=e427] [cursor=pointer]: Show price in my city
+                - generic [ref=e429]:
+                  - text: Just Launched
+                  - generic [ref=e431]:
+                    - text: "25"
+                    - superscript [ref=e432]: th
+                    - text: Nov
+              - generic [ref=e437]:
+                - img "Kia Seltos" [ref=e440]
+                - generic [ref=e441]:
+                  - link "Kia Seltos" [ref=e442] [cursor=pointer]:
+                    - /url: /kia-cars/seltos/
+                    - generic [ref=e443] [cursor=pointer]: Kia Seltos
+                  - generic [ref=e445]:
+                    - text: Rs. 10.79 Lakh
+                    - generic [ref=e446]: onwards
+                  - generic [ref=e447]: Avg. Ex-Showroom price
+                  - generic [ref=e448] [cursor=pointer]: Show price in my city
+              - generic [ref=e453]:
+                - img "Maruti Suzuki Fronx" [ref=e456]
+                - generic [ref=e457]:
+                  - link "Maruti Fronx" [ref=e458] [cursor=pointer]:
+                    - /url: /maruti-suzuki-cars/fronx/
+                    - generic [ref=e459] [cursor=pointer]: Maruti Fronx
+                  - generic [ref=e461]:
+                    - text: Rs. 6.85 Lakh
+                    - generic [ref=e462]: onwards
+                  - generic [ref=e463]: Avg. Ex-Showroom price
+                  - generic [ref=e464] [cursor=pointer]: Show price in my city
+              - generic [ref=e469]:
+                - img "Mahindra Scorpio N" [ref=e472]
+                - generic [ref=e473]:
+                  - link "Mahindra Scorpio N" [ref=e474] [cursor=pointer]:
+                    - /url: /mahindra-cars/scorpio-n/
+                    - generic [ref=e475] [cursor=pointer]: Mahindra Scorpio N
+                  - generic [ref=e477]:
+                    - text: Rs. 13.20 Lakh
+                    - generic [ref=e478]: onwards
+                  - generic [ref=e479]: Avg. Ex-Showroom price
+                  - generic [ref=e480] [cursor=pointer]: Show price in my city
+              - generic [ref=e484]:
+                - generic [ref=e485]:
+                  - img "Mini Cooper S Convertible" [ref=e488]
+                  - generic [ref=e489]:
+                    - link "Mini Cooper S Convertible" [ref=e490] [cursor=pointer]:
+                      - /url: /mini-cars/cooper-s-convertible/
+                      - generic [ref=e491] [cursor=pointer]: Mini Cooper S Convertible
+                    - generic [ref=e493]:
+                      - text: Rs. 58.50 Lakh
+                      - generic [ref=e494]: onwards
+                    - generic [ref=e495]: Avg. Ex-Showroom price
+                    - generic [ref=e496] [cursor=pointer]: Show price in my city
+                - generic [ref=e498]:
+                  - text: Just Launched
+                  - generic [ref=e500]:
+                    - text: "12"
+                    - superscript [ref=e501]: th
+                    - text: Dec
+            - img [ref=e503] [cursor=pointer]
+      - generic [ref=e505]:
+        - heading "Get Offers on Popular Cars" [level=2] [ref=e507]
+        - generic [ref=e510]:
+          - generic [ref=e513]:
+            - generic [ref=e519]:
+              - img "Jeep Compass" [ref=e522]
+              - generic [ref=e523]:
+                - link "Jeep Compass" [ref=e524] [cursor=pointer]:
+                  - /url: /jeep-cars/compass/
+                  - generic [ref=e525] [cursor=pointer]: Jeep Compass
+                - generic [ref=e527]:
+                  - text: Rs. 17.73 Lakh
+                  - generic [ref=e528]: onwards
+                - button "Offers" [ref=e531] [cursor=pointer]
+            - generic [ref=e537]:
+              - img "Toyota Glanza" [ref=e540]
+              - generic [ref=e541]:
+                - link "Toyota Glanza" [ref=e542] [cursor=pointer]:
+                  - /url: /toyota-cars/glanza/
+                  - generic [ref=e543] [cursor=pointer]: Toyota Glanza
+                - generic [ref=e545]:
+                  - text: Rs. 6.39 Lakh
+                  - generic [ref=e546]: onwards
+                - button "Offers" [ref=e549] [cursor=pointer]
+            - generic [ref=e555]:
+              - img "Honda City" [ref=e558]
+              - generic [ref=e559]:
+                - link "Honda City" [ref=e560] [cursor=pointer]:
+                  - /url: /honda-cars/city/
+                  - generic [ref=e561] [cursor=pointer]: Honda City
+                - generic [ref=e563]:
+                  - text: Rs. 12.00 Lakh
+                  - generic [ref=e564]: onwards
+                - button "Offers" [ref=e567] [cursor=pointer]
+            - generic [ref=e573]:
+              - img "Volkswagen Taigun" [ref=e576]
+              - generic [ref=e577]:
+                - link "Volkswagen Taigun" [ref=e578] [cursor=pointer]:
+                  - /url: /volkswagen-cars/taigun/
+                  - generic [ref=e579] [cursor=pointer]: Volkswagen Taigun
+                - generic [ref=e581]:
+                  - text: Rs. 11.39 Lakh
+                  - generic [ref=e582]: onwards
+                - button "Offers" [ref=e585] [cursor=pointer]
+            - generic [ref=e591]:
+              - img "Skoda Slavia" [ref=e594]
+              - generic [ref=e595]:
+                - link "Skoda Slavia" [ref=e596] [cursor=pointer]:
+                  - /url: /skoda-cars/slavia/
+                  - generic [ref=e597] [cursor=pointer]: Skoda Slavia
+                - generic [ref=e599]:
+                  - text: Rs. 10.00 Lakh
+                  - generic [ref=e600]: onwards
+                - button "Offers" [ref=e603] [cursor=pointer]
+            - generic [ref=e609]:
+              - img "Volkswagen Virtus" [ref=e612]
+              - generic [ref=e613]:
+                - link "Volkswagen Virtus" [ref=e614] [cursor=pointer]:
+                  - /url: /volkswagen-cars/virtus/
+                  - generic [ref=e615] [cursor=pointer]: Volkswagen Virtus
+                - generic [ref=e617]:
+                  - text: Rs. 11.16 Lakh
+                  - generic [ref=e618]: onwards
+                - button "Offers" [ref=e621] [cursor=pointer]
+            - generic [ref=e627]:
+              - img "Honda Elevate" [ref=e630]
+              - generic [ref=e631]:
+                - link "Honda Elevate" [ref=e632] [cursor=pointer]:
+                  - /url: /honda-cars/elevate/
+                  - generic [ref=e633] [cursor=pointer]: Honda Elevate
+                - generic [ref=e635]:
+                  - text: Rs. 11.05 Lakh
+                  - generic [ref=e636]: onwards
+                - button "Offers" [ref=e639] [cursor=pointer]
+            - generic [ref=e645]:
+              - img "Renault Kiger" [ref=e648]
+              - generic [ref=e649]:
+                - link "Renault Kiger" [ref=e650] [cursor=pointer]:
+                  - /url: /renault-cars/kiger/
+                  - generic [ref=e651] [cursor=pointer]: Renault Kiger
+                - generic [ref=e653]:
+                  - text: Rs. 5.76 Lakh
+                  - generic [ref=e654]: onwards
+                - button "Offers" [ref=e657] [cursor=pointer]
+            - generic [ref=e663]:
+              - img "Renault Triber" [ref=e666]
+              - generic [ref=e667]:
+                - link "Renault Triber" [ref=e668] [cursor=pointer]:
+                  - /url: /renault-cars/triber/
+                  - generic [ref=e669] [cursor=pointer]: Renault Triber
+                - generic [ref=e671]:
+                  - text: Rs. 5.76 Lakh
+                  - generic [ref=e672]: onwards
+                - button "Offers" [ref=e675] [cursor=pointer]
+          - img [ref=e677] [cursor=pointer]
+      - generic [ref=e679]: AD
+      - list [ref=e682]:
+        - listitem [ref=e683]:
+          - link "Home" [ref=e684] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e685] [cursor=pointer]: Home
+          - img [ref=e686]
+        - listitem [ref=e687]:
+          - generic [ref=e688]: New Cars
+    - generic [ref=e690] [cursor=pointer]:
+      - generic [ref=e691] [cursor=pointer]: Buying a New Car?
+      - generic [ref=e692] [cursor=pointer]: Leave a missed call
+      - generic [ref=e693] [cursor=pointer]: "08068441441"
+      - generic [ref=e694] [cursor=pointer]: (Toll free)
+      - img [ref=e696] [cursor=pointer]
+    - contentinfo [ref=e699]:
+      - generic [ref=e700]:
+        - generic [ref=e701]:
+          - generic [ref=e703]:
+            - text: "Language:"
+            - generic [ref=e704]: English
+            - link "हिंदी" [ref=e705] [cursor=pointer]:
+              - /url: /hi/new-cars/
+          - generic [ref=e706]:
+            - link "About Us" [ref=e708] [cursor=pointer]:
+              - /url: /about-us/
+            - link "Careers" [ref=e710] [cursor=pointer]:
+              - /url: /career/
+            - link "Terms & Conditions" [ref=e712] [cursor=pointer]:
+              - /url: /used/sell/terms/
+            - link "Advertise" [ref=e714] [cursor=pointer]:
+              - /url: /contactus/
+        - generic [ref=e716]:
+          - generic [ref=e717]:
+            - paragraph [ref=e718]: Connect with us
+            - generic [ref=e719]:
+              - link "Facebook" [ref=e720] [cursor=pointer]:
+                - /url: https://www.facebook.com/CarWale/
+                - img [ref=e721] [cursor=pointer]
+              - link "Twitter" [ref=e722] [cursor=pointer]:
+                - /url: https://twitter.com/carwale/
+                - img [ref=e723] [cursor=pointer]
+              - link "YouTube" [ref=e724] [cursor=pointer]:
+                - /url: https://www.youtube.com/user/CARWALE/featured
+                - img [ref=e725] [cursor=pointer]
+              - link "LinkedIn" [ref=e726] [cursor=pointer]:
+                - /url: https://in.linkedin.com/company/automotive-exchange-private-limited-carwale-com-
+                - img [ref=e727] [cursor=pointer]
+              - link "Instagram" [ref=e728] [cursor=pointer]:
+                - /url: https://www.instagram.com/carwaleindia/?hl=en
+                - img [ref=e729] [cursor=pointer]
+          - generic [ref=e730]:
+            - paragraph [ref=e731]: Download Mobile App
+            - list [ref=e732]:
+              - listitem [ref=e733]:
+                - link "CarWale Android App Download CarWale iOS App" [ref=e734] [cursor=pointer]:
+                  - /url: https://apps.apple.com/in/app/carwale-buy-new-used-cars/id910137745
+                  - text: CarWale Android App
+                  - img "Download CarWale iOS App" [ref=e736] [cursor=pointer]
+              - listitem [ref=e737]:
+                - link "CarWale Android App Download CarWale Android App" [ref=e738] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=com.carwale&referrer=utm_source%3DCarWaleMsite%26utm_medium%3DFooter%26utm_campaign=CarWale%2520MobilesiteFooter
+                  - text: CarWale Android App
+                  - img "Download CarWale Android App" [ref=e740] [cursor=pointer]
+      - generic [ref=e741]:
+        - img [ref=e742]
+        - list [ref=e745]:
+          - listitem [ref=e746]:
+            - generic [ref=e747]:
+              - text: CarWale
+              - img [ref=e748]
+          - listitem [ref=e751]:
+            - link "BikeWale" [ref=e752] [cursor=pointer]:
+              - /url: https://www.bikewale.com/
+              - text: BikeWale
+              - img [ref=e753] [cursor=pointer]
+          - listitem [ref=e759]:
+            - link "CarTrade" [ref=e760] [cursor=pointer]:
+              - /url: https://www.cartrade.com/
+              - text: CarTrade
+              - img [ref=e761] [cursor=pointer]
+          - listitem [ref=e763]:
+            - link "Mobility Outlook" [ref=e764] [cursor=pointer]:
+              - /url: https://www.mobilityoutlook.com/
+              - text: Mobility Outlook
+              - img [ref=e765] [cursor=pointer]
+          - listitem [ref=e769]:
+            - link "OLX" [ref=e770] [cursor=pointer]:
+              - /url: https://www.olx.in/
+              - text: OLX
+              - img [ref=e771] [cursor=pointer]
+          - listitem [ref=e773]:
+            - generic [ref=e774]:
+              - text: abSure
+              - img [ref=e775]
+      - generic [ref=e778]:
+        - paragraph [ref=e779]: ©CarTrade Tech.
+        - generic [ref=e780]:
+          - link "Visitor Agreement" [ref=e781] [cursor=pointer]:
+            - /url: /visitor-agreement/
+          - text: "&"
+          - link "Privacy Policy" [ref=e782] [cursor=pointer]:
+            - /url: /privacy-policy/
+    - generic [ref=e783]:
+      - generic [ref=e784]:
+        - generic [ref=e785]:
+          - paragraph [ref=e786]: Login to CarWale
+          - paragraph [ref=e787]: Login to CarWale for a more personalised experience
+        - button "Close Popup" [ref=e788] [cursor=pointer]:
+          - img [ref=e789] [cursor=pointer]
+      - generic [ref=e791]:
+        - generic [ref=e792]:
+          - generic [ref=e795]:
+            - generic: Contact Number*
+            - generic [ref=e796]: "+91"
+            - textbox "Input field" [ref=e797]
+            - group "Contact Number*"
+          - button "Get OTP" [ref=e798] [cursor=pointer]
+        - generic [ref=e801]: Or Continue with
+        - generic [ref=e804] [cursor=pointer]:
+          - img "Whatsapp" [ref=e807] [cursor=pointer]
+          - generic [ref=e808] [cursor=pointer]: Whatsapp
+  - dialog "Website asks for your consent to use your personal data to:" [ref=e812]:
+    - generic [ref=e814]:
+      - generic [ref=e815]:
+        - img "Welcome to www.carwale.com" [ref=e818]
+        - heading "Website asks for your consent to use your personal data to:" [level=1] [ref=e819]
+      - list [ref=e821]:
+        - listitem [ref=e822]:
+          - img [ref=e825]
+          - generic [ref=e827]: Personalised advertising and content, advertising and content measurement, audience research and services development
+        - listitem [ref=e828]:
+          - img [ref=e831]
+          - generic [ref=e833]: Store and/or access information on a device
+      - button "Learn more" [ref=e834] [cursor=pointer]:
+        - img [ref=e837] [cursor=pointer]
+        - generic [ref=e839] [cursor=pointer]: Learn more
+      - generic [ref=e840]:
+        - paragraph [ref=e841]:
+          - text: Your personal data will be processed and information from your device (cookies, unique identifiers, and other device data) may be stored by, accessed by and shared with
+          - button "141 TCF vendor(s) and 69 ad partner(s)" [ref=e842] [cursor=pointer]
+          - text: ", or used specifically by this site."
+        - paragraph [ref=e843]: Some vendors may process your personal data on the basis of legitimate interest, which you can object to by managing your options below. Look for a link at the bottom of this page or in the site menu to manage or withdraw consent in privacy and cookie settings.
+    - generic [ref=e844]:
+      - generic [ref=e846]:
+        - button "Consent" [active] [ref=e847] [cursor=pointer]:
+          - paragraph [ref=e849] [cursor=pointer]: Consent
+        - button "Do not consent" [ref=e850] [cursor=pointer]:
+          - paragraph [ref=e852] [cursor=pointer]: Do not consent
+      - button "Manage options" [ref=e853] [cursor=pointer]:
+        - paragraph [ref=e854] [cursor=pointer]: Manage options
+```

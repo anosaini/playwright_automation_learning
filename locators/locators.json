@@ -1,0 +1,23 @@
+{
+    "HomePage": {
+        "newCarsMenu": "//*[@id='root']/div[1]/header/div/nav/ul/li[1]/div",
+        "findNewCars": "text=Find New Cars"
+        
+    },
+
+    "NewCarsPage": {
+        "newCarsPageUrl": "/.*new-cars/",
+        "newCarsPateTitle": "//h1[normalize-space()='New Cars']",
+        "tataCars": "img[title='Tata Cars']",
+        "bmwCars": "img[title='BMW Cars']",
+        "hyundaiCars": "img[title='Hyundai Cars']"
+       
+    },
+    "CarBase": {
+        "carTitle": "//header[1]/h1[not(contains(text(),'New'))]",
+        "CarName": "//div/div/div/div/a/h3",
+        "carPrice": "//div/div/div/div/div[3]/div/span/span[1]"
+    }
+
+
+}
