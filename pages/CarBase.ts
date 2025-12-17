@@ -42,7 +42,7 @@ export class CarBase extends BasePage {
             const carName = await carNames.nth(i).innerText();
             const carPrice = await carPrices.nth(i).innerText();
             carDetails.push({name: carName, price: carPrice});
-            console.log(`Car Name: ${carName} | Price: ${carPrice}`);
+            console.log(`${carName},${carPrice}`);
         }
         return carDetails;
     }

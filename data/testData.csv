@@ -1,4 +1,4 @@
-carBrand,carTitle
-bmw,BMW Cars
-hyundai, Hyundai Cars
-tata,Tata Cars
+carBrand,carTitle,carsPageURL
+bmw,BMW Cars,"bmw-cars"
+hyundai, Hyundai Cars,"/.*hyundai-cars.*/"
+tata,Tata Cars,"tata-cars"
