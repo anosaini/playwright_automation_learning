@@ -1,0 +1,17 @@
+# Report files
+allure-report/
+allure-results/
+playwright-report/
+test-results/
+
+# Playwright artifacts
+videos/
+screenshots/
+trace/
+
+# Misc / OS / IDE
+.DS_Store
+.env
+node_modules/
+.vscode/
+.idea/
