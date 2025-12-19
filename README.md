@@ -9,6 +9,36 @@ This repository contains Playwright tests and example automation used for learni
 - Config: `playwright.config.ts` (project defaults, reporters include Allure)
 - Results: Allure output is written to `allure-results/` and the generated report is in `allure-report/`
 
+---
+## Project Structure
+
+```plaintext
+playwright-automation-learning/
+│
+├── allure-report/               # Final report generated from allure result
+│   ├── data/                    # metadata used to populate the final report
+│   ├── export/                  # Aggregated test data in formats compatible with external tools
+│   ├── history/                 # Historical runs data
+│   ├── plugin/                  # JavaScript and CSS for various Allure plugins 
+│   ├── widgets/                 # "Overview" (main) page of the report
+|
+├── data/                        # CSV format data 
+├── fixture/                     # Page fixture to isolated browser pages 
+├── locators/                    # Page object's locators
+├── pages/                       # Page Object Models
+├── playwright-report/           # Native html report
+│   ├── data/                    # Test results and metadata used to populate the HTML report
+│   ├── trace/                   # Files for failed or retried tests
+│
+├── tests/                       # Test specifications (.spec.ts)
+│
+├── test-results/                # Defalt Output of test executions,traces and videos
+├── utils/                       # supporting functions
+├── .gitignore                   # Git ignore rules
+├── package.json                 # Project dependencies & scripts
+├── package-lock.json            # Lock file
+└── playwright.config.ts         # Playwright configuration
+
 Getting started
 ---------------
 
@@ -74,8 +104,8 @@ npx allure-commandline generate allure-results --clean -o allure-report
 npx allure-commandline open allure-report
 ```
 
-Repository layout
------------------
+Repository Details
+------------------
 - `tests/` — Playwright test files
 - `playwright.config.ts` — Playwright configuration (timeouts, reporters, projects)
 - `allure-results/` — test result artifacts (auto-created)
